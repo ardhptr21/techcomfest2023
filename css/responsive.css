@@ -3,6 +3,11 @@
     --paddingX: 20px;
   }
 
+  /* ==== UTILITIES ==== */
+  .section-title {
+    font-size: 28px;
+  }
+
   /* ==== HERO ==== */
   .hero__content .hero__tagline {
     padding: 10px 20px;
@@ -22,6 +27,20 @@
 
   .hero__content .hero__cta {
     transform: scale(0.7);
+  }
+
+  /* ==== EXAMPLES ==== */
+  .examples__wrapper > div {
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
+  }
+  .examples__content .examples__title {
+    font-size: 30px;
+  }
+  .examples__content .examples__detail {
+    font-size: 16px;
+    letter-spacing: normal;
   }
 }
 
@@ -75,6 +94,17 @@
 
   .hero__content h1 {
     font-size: 38px;
+  }
+
+  /* ==== EXAMPLES ==== */
+  .examples__wrapper > div {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .examples__content .examples__detail {
+    font-size: 24px;
+    letter-spacing: normal;
   }
 }
 
