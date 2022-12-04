@@ -1,0 +1,46 @@
+.nav-vector {
+  position: absolute;
+  width: 350px;
+  height: 320px;
+  left: 0;
+  top: -120px;
+  background: linear-gradient(169.25deg, #4b31ae -7.52%, rgba(75, 49, 174, 0) 86.07%);
+  filter: blur(12.5px);
+  z-index: -1;
+}
+
+.example-vector {
+  position: absolute;
+  width: 423px;
+  height: 423px;
+  right: -20rem;
+  top: 3rem;
+  z-index: -1;
+  background: linear-gradient(219.39deg, #6327fa 4.39%, #c201e8 77.45%);
+  opacity: 0.89;
+  filter: blur(118px);
+}
+
+.example-vector-2 {
+  position: absolute;
+  width: 423px;
+  height: 423px;
+  left: -20%;
+  z-index: -1;
+  top: 40%;
+  background: linear-gradient(212.34deg, #6327fa 4.63%, #c201e8 61.03%);
+  opacity: 0.89;
+  filter: blur(118px);
+  transform: rotate(30deg);
+}
+
+.example-vector-3 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: -20%;
+  bottom: -80%;
+  background: rgba(38, 71, 189, 0.3);
+  filter: blur(11px);
+  border-radius: 50%;
+}

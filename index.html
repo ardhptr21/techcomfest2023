@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/decoration.css" />
     <title>Technological Literacy for Future Technology Development</title>
   </head>
   <body>
     <!-- ====== [START] HEADER SECTION ===== -->
     <header>
       <nav class="nav container">
+        <div class="nav-vector"></div>
         <a href="#" class="nav__logo">Logo</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
@@ -66,12 +68,13 @@
       </section>
       <!-- ====== [END] BENEFITS SECTION ===== -->
       <!-- ====== [START] EXAMPLES SECTION ===== -->
-      <section id="examples" class="examples container">
+      <section id="examples" class="examples container" style="overflow-x: hidden">
         <h2 class="section-title">
           Examples <br />
           of Technology Literacy
         </h2>
-        <div class="examples__list">
+        <div class="examples__list" style="position: relative">
+          <div class="example-vector"></div>
           <div class="examples__wrapper">
             <div>
               <img src="./assets/examples/creating-content.jpg" alt="creating content" class="examples__image" />
@@ -96,6 +99,7 @@
               </div>
             </div>
           </div>
+          <div class="example-vector-2"></div>
           <div class="examples__wrapper">
             <div>
               <img src="./assets/examples/research.png" alt="research" class="examples__image" />
@@ -110,7 +114,7 @@
             </div>
           </div>
           <div class="examples__wrapper">
-            <div class="flex-row-reverse">
+            <div class="flex-row-reverse" style="position: relative; overflow: hidden">
               <img src="./assets/examples/vrar.png" alt="AR / VR" class="examples__image" />
               <div class="examples__content">
                 <h3 class="examples__title">Virtual and Augmanted Reality</h3>
@@ -119,13 +123,14 @@
                   dalam teknologi baru.
                 </p>
               </div>
+              <div class="example-vector-3"></div>
             </div>
           </div>
         </div>
       </section>
       <!-- ====== [END] EXAMPLE SECTION ===== -->
-      <!-- ====== [START] EXAMPLE SECTION ===== -->
-      <section class="elements-home container" id="elements-home">
+      <!-- ====== [START] ELEMENTS-HOME SECTION ===== -->
+      <section class="elements-home container" style="overflow: hidden" id="elements-home">
         <div class="elements-home__img-left">
           <img src="./assets/hand-left.svg" alt="hand left" />
         </div>
@@ -140,7 +145,7 @@
           <img src="./assets/hand-right.svg" alt="hand right" />
         </div>
       </section>
-      <!-- ====== [END] EXAMPLE SECTION ===== -->
+      <!-- ====== [END] ELEMENTS-HOME SECTION ===== -->
     </main>
     <!-- ====== [START] FOOTER SECTION ===== -->
     <footer class="container footer">
