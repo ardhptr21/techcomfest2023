@@ -48,6 +48,23 @@ body {
   text-fill-color: transparent;
 }
 
+.page-title-2 .line {
+  width: 100%;
+  max-width: 400px;
+  height: 5px;
+  background: linear-gradient(93.42deg, #2672ff 9.15%, #741aac 81.22%);
+  margin-bottom: 1.5rem;
+}
+
+.page-title-2 h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.05em;
+  max-width: 400px;
+  color: var(--text-base);
+}
+
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -365,4 +382,55 @@ body {
 .element-card p {
   color: var(--deep-white);
   line-height: 1.5rem;
+}
+
+/* ==== QUESTIONS ==== */
+.help {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.help .content {
+  width: 100%;
+  flex: 1;
+}
+
+.help img {
+  flex: 1;
+  width: 100%;
+  max-width: 600px;
+}
+
+.questions {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.question {
+  background-color: var(--deep-blue);
+  padding: 1.5rem 2rem;
+  border-radius: var(--border-radius);
+}
+
+.question .question__summary {
+  line-height: 1.5rem;
+  color: var(--text-base);
+  font-size: 20px;
+  font-weight: 700;
+  user-select: none;
+  cursor: pointer;
+}
+
+.question .question__detail {
+  width: inherit;
+  margin-top: 1.5rem;
+  line-height: 1.8rem;
+  font-size: 18px;
 }

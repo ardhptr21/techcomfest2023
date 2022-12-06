@@ -84,6 +84,16 @@
 }
 
 @media (max-width: 768px) {
+  .page-title-2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* ==== NAVBAR ==== */
   .nav .nav__menu {
     position: absolute;
     inset: 0;
@@ -132,6 +142,15 @@
   }
   .elements-home .elements-home__button {
     transform: scale(0.7);
+  }
+
+  /* ==== QUESTIONS ==== */
+  .help img {
+    display: none;
+  }
+
+  .question .question__summary {
+    font-size: 18px;
   }
 }
 
@@ -182,6 +201,11 @@
 
   .element-card {
     width: 100%;
+  }
+
+  /* ==== QUESTIONS ==== */
+  .help img {
+    display: none;
   }
 }
 
