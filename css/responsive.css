@@ -8,6 +8,11 @@
     font-size: 28px;
   }
 
+  .page-title h1 {
+    font-size: 28px;
+    line-height: normal;
+  }
+
   /* ==== HERO ==== */
   .hero__content .hero__tagline {
     padding: 10px 20px;
@@ -41,6 +46,23 @@
   .examples__content .examples__detail {
     font-size: 16px;
     letter-spacing: normal;
+  }
+
+  /* ==== ELEMENTS ==== */
+  .elements {
+    grid-template-columns: 1fr;
+  }
+
+  .element-card {
+    width: 100%;
+  }
+
+  .element-card img {
+    width: 100%;
+  }
+
+  .element-card h3 {
+    font-size: 26px;
   }
 
   /* ==== FOOTER ==== */
@@ -118,6 +140,12 @@
     --paddingX: 50px;
   }
 
+  /* ==== UTILITIES ==== */
+  .page-title h1 {
+    font-size: 52px;
+    line-height: normal;
+  }
+
   /* ==== HERO ==== */
   .hero__content .hero__tagline h6 {
     font-size: 1rem;
@@ -145,6 +173,15 @@
 
   .elements-home .elements-home__button {
     transform: scale(0.8);
+  }
+
+  /* ==== ELEMENTS ==== */
+  .elements {
+    grid-template-columns: 1fr;
+  }
+
+  .element-card {
+    width: 100%;
   }
 }
 
