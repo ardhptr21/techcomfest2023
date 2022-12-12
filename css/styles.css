@@ -51,7 +51,7 @@ body {
 .page-title-2 .line {
   width: 100%;
   max-width: 400px;
-  height: 5px;
+  height: 8px;
   background: linear-gradient(93.42deg, #2672ff 9.15%, #741aac 81.22%);
   margin-bottom: 1.5rem;
 }
@@ -111,9 +111,15 @@ body {
   border-bottom: transparent 5px solid;
   transition: all 0.3s;
 }
-.nav .nav__item a:hover,
+.nav .nav__item a:hover {
+  border-bottom: var(--deep-blue) 5px solid;
+}
 .nav .nav__item.active {
   border-bottom: var(--deep-blue) 5px solid;
+}
+
+.nav .nav__item.active a:hover {
+  border-bottom: transparent 5px solid;
 }
 
 /* ==== HERO ==== */
@@ -433,4 +439,75 @@ body {
   margin-top: 1.5rem;
   line-height: 1.8rem;
   font-size: 18px;
+}
+
+/* ==== ABOUT ==== */
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.about .about__profiles {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.about .about__profile {
+  background-color: #252525;
+  padding: 3rem;
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+}
+
+.about .about__profile h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(93.49deg, #4f008b -51.19%, #1960d4 75.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-align: center;
+}
+
+.about .about__profile h3 {
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.about .about__profile img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.about .about__profile .sosmed-link {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.about .about__profile .sosmed-link a {
+  text-decoration: none;
+  color: var(--deep-white);
+  font-size: 28px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.about .about__profile .sosmed-link a:hover {
+  color: var(--deep-blue);
+  text-shadow: 0 0 30px var(--blue);
 }

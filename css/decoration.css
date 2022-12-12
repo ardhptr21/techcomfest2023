@@ -44,3 +44,38 @@
   filter: blur(11px);
   border-radius: 50%;
 }
+
+.element-vector-1 {
+  position: absolute;
+  width: 654px;
+  height: 654px;
+  left: -445px;
+  top: 1484px;
+  background: var(--deep-blue);
+  z-index: -1;
+  opacity: 0.7;
+  filter: blur(123px);
+}
+
+.element-vector-2 {
+  position: absolute;
+  width: 654px;
+  height: 654px;
+  right: -500px;
+  z-index: -1;
+  top: 2000px;
+  opacity: 0.7;
+  background: var(--blue);
+  filter: blur(164.5px);
+}
+
+.about-vector {
+  position: absolute;
+  width: 169px;
+  height: 169px;
+  right: 0;
+  top: 649px;
+  background: rgba(255, 23, 168, 0.7);
+  filter: blur(100px);
+  z-index: -99;
+}

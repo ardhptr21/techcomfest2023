@@ -65,6 +65,18 @@
     font-size: 26px;
   }
 
+  /* ==== ELEMENTS ==== */
+  .about .about__profiles {
+    width: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .about .about__profile {
+    width: 80%;
+  }
+
   /* ==== FOOTER ==== */
   .footer {
     flex-direction: column;
@@ -152,6 +164,12 @@
   .question .question__summary {
     font-size: 18px;
   }
+
+  /* ==== ABOUT ==== */
+  .about {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 1080px) and (min-width: 641px) {
@@ -206,6 +224,13 @@
   /* ==== QUESTIONS ==== */
   .help img {
     display: none;
+  }
+
+  /* ==== ELEMENTS ==== */
+  .about .about__profiles {
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
   }
 }
 
