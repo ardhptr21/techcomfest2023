@@ -96,6 +96,8 @@ body {
   height: 35px;
   font-size: 20px;
   display: none;
+
+  cursor: pointer;
 }
 
 .nav .nav__list {
@@ -212,6 +214,10 @@ body {
 
 .benefits__list .benefits__item {
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 /* ==== EXAMPLES ==== */
@@ -315,10 +321,8 @@ body {
   justify-content: space-between;
 }
 
-.footer h5 {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+.footer .footer__logo img {
+  width: 200px;
 }
 
 .footer .footer__additional {

@@ -33,6 +33,15 @@
   .hero__content .hero__cta {
     transform: scale(0.7);
   }
+  /* ==== BENEFITS ==== */
+  .benefits__list {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .benefits__list .benefits__item {
+    flex-direction: column;
+  }
 
   /* ==== EXAMPLES ==== */
   .examples__wrapper > div {
