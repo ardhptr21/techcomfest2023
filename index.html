@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/9f28cba828.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css" />
+    <script src="https://kit.fontawesome.com/9f28cba828.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/decoration.css" />
@@ -34,7 +35,7 @@
     <main>
       <!-- ====== [START] HERO SECTION ===== -->
       <section id="hero" class="hero container">
-        <div class="hero__content">
+        <div class="hero__content" data-aos="fade-down" data-aos-duration="2000">
           <div class="hero__tagline">
             <h6>Find out something new, for the better progress.</h6>
           </div>
@@ -48,19 +49,19 @@
           </p>
           <button class="hero__cta">Get Started</button>
         </div>
-        <div class="hero__image">
+        <div class="hero__image" data-aos="fade-left" data-aos-duration="2000">
           <img src="./assets/hero.svg" alt="hero" />
         </div>
       </section>
       <!-- ====== [END] HERO SECTION ===== -->
       <!-- ====== [START] BENEFITS SECTION ===== -->
       <section id="benefits" class="benefits container">
-        <h2 class="section-title">
+        <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500">
           Manfaat <br />
           Literasi Teknologi
         </h2>
 
-        <ul class="benefits__list">
+        <ul class="benefits__list" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="350">
           <li class="benefits__item">
             <img src="./assets/benefits/skill.svg" loading="lazy" alt="improving skill" /> Improving your skills
           </li>
@@ -75,13 +76,13 @@
       <!-- ====== [END] BENEFITS SECTION ===== -->
       <!-- ====== [START] EXAMPLES SECTION ===== -->
       <section id="examples" class="examples container" style="overflow-x: hidden">
-        <h2 class="section-title">
+        <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500">
           Contoh <br />
           Teknologi Literasi
         </h2>
         <div class="examples__list" style="position: relative">
           <div class="example-vector"></div>
-          <div class="examples__wrapper">
+          <div class="examples__wrapper" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="800">
             <div>
               <img
                 src="./assets/examples/creating-content.jpg"
@@ -98,7 +99,7 @@
               </div>
             </div>
           </div>
-          <div class="examples__wrapper">
+          <div class="examples__wrapper" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="500">
             <div class="flex-row-reverse">
               <img
                 src="./assets/examples/communication.jpg"
@@ -116,7 +117,7 @@
             </div>
           </div>
           <div class="example-vector-2"></div>
-          <div class="examples__wrapper">
+          <div class="examples__wrapper" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="700">
             <div>
               <img src="./assets/examples/research.png" loading="lazy" alt="research" class="examples__image" />
               <div class="examples__content">
@@ -129,7 +130,7 @@
               </div>
             </div>
           </div>
-          <div class="examples__wrapper">
+          <div class="examples__wrapper" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="900">
             <div class="flex-row-reverse" style="position: relative; overflow: hidden">
               <img src="./assets/examples/vrar.png" loading="lazy" alt="AR / VR" class="examples__image" />
               <div class="examples__content">
@@ -150,7 +151,7 @@
         <div class="elements-home__img-left">
           <img src="./assets/hand-left.svg" alt="hand left" />
         </div>
-        <div class="elements-home__content">
+        <div class="elements-home__content" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="1000">
           <h2>
             Elemen Penting <br />
             Teknologi Literasi
@@ -188,7 +189,7 @@
       </div>
     </footer>
     <!-- ====== [END] FOOTER SECTION ===== -->
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

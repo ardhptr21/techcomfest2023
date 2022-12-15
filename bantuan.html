@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bantuan Mengenai Literasi Teknologi</title>
-    <script src="https://kit.fontawesome.com/9f28cba828.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css" />
+    <script src="https://kit.fontawesome.com/9f28cba828.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/decoration.css" />
@@ -34,11 +35,11 @@
     <main>
       <section class="help container">
         <div class="content">
-          <div class="page-title-2">
+          <div class="page-title-2" data-aos="fade-down" data-aos-duration="2000">
             <div class="line"></div>
             <h1>Yang sering ditanyakan</h1>
           </div>
-          <div class="questions">
+          <div class="questions" data-aos="fade-up" data-aos-duration="2000">
             <details class="question">
               <summary class="question__summary">Bagaimana perkembangan literasi digital?</summary>
               <p class="question__detail">
@@ -82,7 +83,7 @@
             </details>
           </div>
         </div>
-        <img src="./assets/question.png" alt="question" />
+        <img src="./assets/question.png" alt="question" data-aos="fade-left" data-aos-duration="2000" />
       </section>
     </main>
     <!-- ====== [START] FOOTER SECTION ===== -->
@@ -110,7 +111,7 @@
       </div>
     </footer>
     <!-- ====== [END] FOOTER SECTION ===== -->
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

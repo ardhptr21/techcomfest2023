@@ -1,6 +1,10 @@
 const navToggle = document.getElementById('nav-toggle');
 const navMenu = document.getElementById('nav-menu');
 
+document.addEventListener('DOMContentLoaded', () => {
+  AOS.init();
+});
+
 navToggle.addEventListener('click', () => {
   navMenu.classList.toggle('show');
   if (navMenu.classList.contains('show')) {
